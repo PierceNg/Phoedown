@@ -5,12 +5,16 @@ Phoedown is [Pharo Smalltalk](https://github.com/pharo-project/pharo) FFI to
 
 ## Installing
 
+In Pharo:
+
 ```smalltalk
 Metacello new
 	baseline: 'Phoedown';
 	repository: 'github://PierceNg/Phoedown/src';
 	load.
 ```
+
+The Pharo VM needs to be able to locate the hoedown .so/dylib file.
 
 ## The Simplest Example
 
